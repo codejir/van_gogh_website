@@ -1,0 +1,114 @@
+* {
+    font-family: Courier;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(242, 208, 169);
+}
+
+#navbar {
+    background-color: rgb(241, 89, 70);
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    font-weight: bold;
+    font-size: large;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.main_container {
+    /* border: 5px solid blue ; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_container2 {
+    /* border: 5px solid red ; */
+    height: 2000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_container3 {
+    /* border: 5px solid yellow ; */
+    height: 1100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_container {
+    /* border: 5px solid greenyellow; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    align-items: center;
+}
+
+/* p1 {
+    font-size: 22px;
+} */
+
+.image_container {
+    /* border: 5px solid greenyellow; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.image_container2 {
+    /* border: 5px solid blue; */
+    height: 5000x;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image_container3 {
+    /* border: 5px solid blue; */
+    height: 5000x;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.van_gogh {
+    width: 100%;
+}
+
+.biography {
+    width: 100%;
+}
+
+.legacy {
+    width: 100%;
+}
+
+img {
+    opacity: 0.5;
+    width: 25%;
+}
+  
+img:hover {
+    opacity: 1.0;
+}
